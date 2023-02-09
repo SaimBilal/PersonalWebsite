@@ -1,21 +1,36 @@
 body {
-    background-color:beige;
-    margin: 0px;
-}
-
-.upperDiv {
     background-color: burlywood;
-    
+    margin: 0px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
 }
 
-.middleDiv {
-    background-color: green;
-    height: 300px;
-    width: 300px;
+.top-container {
+    position: relative;
+    padding-top: 100px;
 }
 
-.lowerDiv {
-    background-color: blue;
-    height: 300px;
-    width: 300px;
+
+h1 {
+    font-size: 4.6875rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cloud_top {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+.cloud_bot {
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+}
+
+.profilePic {
+    margin-top: 25px;
+    height: 150px;
+    width: 150px;
 }
