@@ -18,12 +18,16 @@ h1 {
 }
 
 .cloud_top {
+    width: 150px;
+    height: 150px;
     position: absolute;
     right: 400px;
     top: 50px;
 }
 
 .cloud_bot {
+    width: 100px;
+    height: 100px;
     position: absolute;
     left: 400px;
     bottom: 300px;
